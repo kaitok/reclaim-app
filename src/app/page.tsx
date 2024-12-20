@@ -1,8 +1,6 @@
 import ReclaimQRCode from './components/ReclaimQRCode'
 import ReclaimService from './service/ReclaimService'
 
-export const dynamic = 'force-dynamic' // Dynamic rendering to ensure fresh data
-
 export default async function ReclaimDemoPage() {
   const {
     NEXT_PUBLIC_APP_ID,
